@@ -15,6 +15,8 @@
 		6B06F80923ED1B6F00F5B17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B06F80723ED1B6F00F5B17E /* LaunchScreen.storyboard */; };
 		6B06F81423ED1B7000F5B17E /* HolidayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06F81323ED1B7000F5B17E /* HolidayTests.swift */; };
 		6B06F81F23ED1B7000F5B17E /* HolidayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06F81E23ED1B7000F5B17E /* HolidayUITests.swift */; };
+		6B06F82D23ED1C5F00F5B17E /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06F82C23ED1C5F00F5B17E /* Holiday.swift */; };
+		6B06F82F23ED1C6E00F5B17E /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06F82E23ED1C6E00F5B17E /* HolidayRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6B06F81A23ED1B7000F5B17E /* HolidayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B06F81E23ED1B7000F5B17E /* HolidayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayUITests.swift; sourceTree = "<group>"; };
 		6B06F82023ED1B7000F5B17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B06F82C23ED1C5F00F5B17E /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		6B06F82E23ED1C6E00F5B17E /* HolidayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6B06F80523ED1B6F00F5B17E /* Assets.xcassets */,
 				6B06F80723ED1B6F00F5B17E /* LaunchScreen.storyboard */,
 				6B06F80A23ED1B6F00F5B17E /* Info.plist */,
+				6B06F82C23ED1C5F00F5B17E /* Holiday.swift */,
+				6B06F82E23ED1C6E00F5B17E /* HolidayRequest.swift */,
 			);
 			path = Holiday;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B06F80123ED1B6E00F5B17E /* ViewController.swift in Sources */,
+				6B06F82F23ED1C6E00F5B17E /* HolidayRequest.swift in Sources */,
 				6B06F7FD23ED1B6E00F5B17E /* AppDelegate.swift in Sources */,
+				6B06F82D23ED1C5F00F5B17E /* Holiday.swift in Sources */,
 				6B06F7FF23ED1B6E00F5B17E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
